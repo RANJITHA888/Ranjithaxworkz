@@ -15,7 +15,7 @@ Boolean isValid = true;
 			System.out.println("Invalid Instagram No of Users");
 			isValid = false;
 		}
-		if(dto.getVersion() == 0 || dto.getVersion() < 0 ) {
+		if(dto.getVersion() == 0 || dto.getVersion() > 10 ) {
 			System.out.println("Invalid Instagram Version");
 			isValid = false;
 		}
