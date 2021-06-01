@@ -19,9 +19,9 @@ public class InstagramTester {
 		InstagramDAO dao = new InstagramDAOImpl();
 		// dao.update();
 dao.getMaximumNoOfUsersInstagram();
-//dao.getCountOfAllInstagramRecords();
-//dao.getMinimumNumberOfUsersInstagram();
-//dao.getSumOfAllInstagramUsers();
+dao.getCountOfAllInstagramRecords();
+dao.getMinimumNumberOfUsersInstagram();
+dao.getSumOfAllInstagramUsers();
 		// serviceImpl.validateFetchInstagramDetails();
 	}
 

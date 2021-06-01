@@ -38,6 +38,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Seesion connection failed");
 			}
+			Singleton.close();
 		}
 	}
 
@@ -61,6 +62,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Session is not Closed");
 			}
+			Singleton.close();
 
 		}
 	}
@@ -91,6 +93,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Session is not Closed");
 			}
+			Singleton.close();
 		}
 
 	}
@@ -115,6 +118,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Session is not Closed");
 			}
+			Singleton.close();
 
 		}
 	}
@@ -139,6 +143,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Session is not Closed");
 			}
+			Singleton.close();
 
 		}
 	}
@@ -162,6 +167,7 @@ public class InstagramDAOImpl implements InstagramDAO {
 			} else {
 				System.out.println("Session is not Closed");
 			}
+			Singleton.close();
 
 		}
 	}
@@ -188,5 +194,6 @@ public class InstagramDAOImpl implements InstagramDAO {
 			}
 
 		}
+		Singleton.close();
 	}
 }
